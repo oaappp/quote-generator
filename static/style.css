@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f9fc;
+    color: #333;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.container {
+    background-color: white;
+    padding: 40px;
+    width: 50%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.author {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #666;
+}
