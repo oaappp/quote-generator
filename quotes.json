@@ -1,6 +1,12 @@
 [
-    {"text": "Believe in yourself.", "author": "Hafsa"},
-    {"text": "Keep going, you're getting there.", "author": "Unknown"},
-    {"text": "Every day is a new beginning.", "author": "Anonymous"},
-    {"text": "Small steps lead to big results.", "author": "Coach"}
+    {
+        "id": 1,
+        "text": "Test Quote 1",
+        "author": "Author 1"
+    },
+    {
+        "id": 2,
+        "text": "Test Quote 2",
+        "author": "Author 2"
+    }
 ]

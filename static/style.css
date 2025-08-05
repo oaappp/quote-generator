@@ -1,27 +1,111 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f6f9fc;
-    color: #333;
+    background: #f0f2f5;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+h1 {
     text-align: center;
-    margin-top: 100px;
-}
-
-.container {
-    background-color: white;
-    padding: 40px;
-    width: 50%;
-    margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.quote {
+    margin-bottom: 20px;
     font-size: 24px;
-    font-style: italic;
+    color: #333;
 }
 
-.author {
-    margin-top: 20px;
-    font-size: 18px;
-    color: #666;
+.quote-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.quote-form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.quote-form button {
+    padding: 10px;
+    font-size: 14px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.quote-form button:hover {
+    background: #0056b3;
+}
+
+.quotes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quote-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.edit-btn:hover {
+    background: #218838;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+hr {
+    margin: 15px 0;
+    border: none;
+    height: 1px;
+    background: #ddd;
 }
