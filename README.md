@@ -22,25 +22,15 @@ I upgraded it into a **Quote Manager** where users can **add, edit, and delete q
 ## Setup Instructions
 
 ### 1. Clone Repository
-```bash
 git clone https://github.com/<your-username>/quote-generator.git
 cd quote-generator
-2. Create Virtual Environment (optional but recommended)
-bash
-Copy
-Edit
+2. Create Virtual Environment
 python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
 3. Install Dependencies
-bash
-Copy
-Edit
 pip install flask flasgger pytest
 4. Run the Application
-bash
-Copy
-Edit
 python app.py
 Access the app at: http://127.0.0.1:5000
 
@@ -60,16 +50,10 @@ Swagger docs (if enabled): /apidocs
 Testing the API
 Run automated tests using Pytest:
 
-bash
-Copy
-Edit
 pytest --maxfail=1 --disable-warnings -q
 All tests should pass (9 tests).
 
 File Structure
-graphql
-Copy
-Edit
 quote-generator/
 │
 ├── app.py                # Main Flask app with CRUD API
