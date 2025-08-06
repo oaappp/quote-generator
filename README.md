@@ -24,13 +24,16 @@ I upgraded it into a **Quote Manager** where users can **add, edit, and delete q
 ### 1. Clone Repository
 git clone https://github.com/<your-username>/quote-generator.git
 cd quote-generator
+
 2. Create Virtual Environment
 python -m venv venv
 source venv/bin/activate      # Linux/Mac
 venv\Scripts\activate         # Windows
-3. Install Dependencies
+
+4. Install Dependencies
 pip install flask flasgger pytest
-4. Run the Application
+
+6. Run the Application
 python app.py
 Access the app at: http://127.0.0.1:5000
 
